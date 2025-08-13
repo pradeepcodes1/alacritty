@@ -16,3 +16,14 @@ regex = "(https|http|ftp)://[\\w\\d\\-./?=#&_~%]+"
 action = "Copy"
 post_processing = true
 command = "open"
+
+[mouse]
+bindings = [
+    { mouse = "Right", action = "Copy" }
+]
+
+[keyboard]
+bindings = [
+    # Add this line to your bindings
+    { key = "K", mods = "Control", action = "ClearHistory" }
+]
